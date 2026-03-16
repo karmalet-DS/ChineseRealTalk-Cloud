@@ -105,7 +105,7 @@ with st.sidebar:
     st.divider()
 
     st.markdown("### ⚙️ API 설정")
-    provider = st.selectbox("LLM 제공자", ["OpenAI", "Anthropic (Claude)"])
+    provider = st.selectbox("LLM 제공자", ["Anthropic (Claude)", "OpenAI"])
 
     if provider == "OpenAI":
         _secret_key = get_secret("OPENAI_API_KEY")
@@ -133,8 +133,8 @@ with st.sidebar:
                 help="관리자가 설정하지 않은 경우, 직접 입력할 수 있습니다."
             )
         model = st.selectbox("모델", [
-            "claude-opus-4-5",
             "claude-sonnet-4-5",
+            "claude-opus-4-5",
             "claude-haiku-4-5",
         ])
 
