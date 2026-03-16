@@ -146,7 +146,6 @@ with st.sidebar:
     st.divider()
     st.markdown("""
     **논문 연계 프로젝트**
-    박민준 교수 (덕성여대)
     """)
     st.caption("AI와 중국어 교육 (2026)")
 
