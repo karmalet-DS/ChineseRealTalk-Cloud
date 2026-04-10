@@ -1,4 +1,5 @@
-# 🀄 ChineseRealTalk
+# 🀄 ChineseRealTalk-Cloud
+## 본 repo는 ChineseRealTalk 최신화로 인해 Deprecated 되었습니다!! ChineseRealTalk을 사용하세요
 
 > **소셜미디어 중국어 텍스트를 LLM으로 교육 자료로 변환하는 인터랙티브 플랫폼**
 
